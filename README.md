@@ -7,10 +7,12 @@
 ## Сборка образа
 ```bash
 docker build -t mif .
+```
 
 ## Запуск контейнера
 ```bash
 docker run -d -p3535:3535 mif:latest
+```
 
 ## Или всё одной командой
 ```bash
